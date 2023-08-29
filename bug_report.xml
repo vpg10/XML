@@ -1,1 +1,19 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+  <Id>01</Id>
+  <Title>The \"Conacts\" button on the main page in the footer</Title>
+	<Steps>
+    <step_1>1. Go to the main page of website by link https://testsite.com</step_1>
+		<step_2>2. Scrolldown the main page till end of page</step_2>
+		<step_3>3. Click the \"Contacts\" button</step_3>
+  </Steps>
+	<Expected_result>Contact page opens</Expected_result>
+	<Actual_result>The transition to the contact page did not take place</Actual_result>
+	<Environment>
+    <OS>Windows 10</OS>
+		<Browser>Chrome 115.0.5790.173</Browser>
+  </Environment>
+	<Severity>Minor</Severity>
+	<Priority>Medium</Priority>
+	<Attachments>http://screenshots.com/myscreenshot.png</Attachments>
+</bug_report>
